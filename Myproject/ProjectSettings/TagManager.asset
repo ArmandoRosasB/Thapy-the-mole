@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - StartWalkController
+  - Next
   layers:
   - Default
   - TransparentFX
@@ -46,4 +48,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 404513169
+    locked: 0
+  - name: Canvas_Intro
+    uniqueID: 123582595
     locked: 0

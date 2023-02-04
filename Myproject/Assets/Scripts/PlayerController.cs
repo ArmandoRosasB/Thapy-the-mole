@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
 
             if (!flag)
             {
-                Debug.Log("Que suene ramonaaaaa");
                 audiosource.Play();
                 flag = true;
             
