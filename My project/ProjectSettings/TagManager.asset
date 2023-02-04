@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3300255223
+    locked: 0
+  - name: Pathways
+    uniqueID: 1851233639
+    locked: 0
+  - name: SolidObjects
+    uniqueID: 2002587093
+    locked: 0
