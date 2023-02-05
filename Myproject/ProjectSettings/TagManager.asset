@@ -3,20 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - StartWalkController
-  - Next
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Level_1
-  - Level_2
-  - Level_3
-=======
-  - Floor
->>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
-=======
-  - Floor
->>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -55,11 +42,5 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 3300255223
-    locked: 0
-  - name: Player
-    uniqueID: 404513169
-    locked: 0
-  - name: Canvas_Intro
-    uniqueID: 123582595
+    uniqueID: 2875989425
     locked: 0
