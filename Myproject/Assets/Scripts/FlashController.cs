@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FlashController : MonoBehaviour
 {
@@ -12,24 +13,23 @@ public class FlashController : MonoBehaviour
     private float tiempoActual;
     private UnityEngine.Rendering.Universal.Light2D globalLight;
 
+    public Button lightButton;
+    public Sprite on;
+    public Sprite off;
+
     private void Start() {
         tiempoActual = lightsOnDuration;
         globalLight = GetComponent<UnityEngine.Rendering.Universal.Light2D>();
         flash = true;
         lightsOn = false;
 
+        lightButton.GetComponent<Image>().sprite = on;
+        lightButton.enabled = true;
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L) && flash && !lightsOn)
-        {
-                globalLight.intensity = .8f;
-                lightsOn = true;
-            
-        }
-
-    if (lightsOn)
+        if (lightsOn)
         {
             LightsOff();
 
@@ -51,6 +51,9 @@ public class FlashController : MonoBehaviour
         {
             flash = true;
             tiempoActual = lightsOnDuration;
+
+            lightButton.GetComponent<Image>().sprite = on;
+            lightButton.enabled = true;
         }
     }
 
@@ -67,6 +70,18 @@ public class FlashController : MonoBehaviour
             flash = false;
         }
         
+    }
+
+    public void LightsOn()
+    {
+        if (flash && !lightsOn)
+        {
+                globalLight.intensity = .8f;
+                lightsOn = true;
+        }
+
+        lightButton.GetComponent<Image>().sprite = off;
+        lightButton.enabled = false;
     }
 
 }
