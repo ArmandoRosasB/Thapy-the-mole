@@ -7944,8 +7944,11 @@ Transform:
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &990439494
 =======
+=======
+>>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
 --- !u!1 &1119847746
 GameObject:
   m_ObjectHideFlags: 0
@@ -7985,12 +7988,16 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119847748
+<<<<<<< HEAD
+>>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
+=======
 >>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 990439491}
   m_Enabled: 1
@@ -7999,6 +8006,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 =======
+=======
+>>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
   m_GameObject: {fileID: 1119847746}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -8090,6 +8099,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119847746}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+>>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
+=======
 >>>>>>> 5142b56e1551d7aa6d9751fd8524506c86c141fb
 --- !u!1 &1421966303
 GameObject:
