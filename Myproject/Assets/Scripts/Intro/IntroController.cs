@@ -101,7 +101,7 @@ public class IntroController : MonoBehaviour
         {
 
             audioFlag = true;
-            transform.position = transform.position + new Vector3(.9f, 0f, 0f);
+            transform.position = transform.position + new Vector3(.7f, 0f, 0f);
         }
             
             

@@ -12,9 +12,12 @@ public class CanvasManager : MonoBehaviour
     public List<GameObject> plantInstance;
     public List<GameObject> slotInstance;
     private int completed;
+    private GameManager gameManager;
 
     void Start()
     {
+        gameManager = GameManager.Instance;
+
         for(int i = 0; i < slot.pos.Count; i++)
         {
             var newSlot = Instantiate(slot.image, slot.pos[i], Quaternion.identity);
@@ -49,6 +52,7 @@ public class CanvasManager : MonoBehaviour
 
         if(completed == plantInstance.Count)
         {
+            gameManager.buttonFlags.LvlThreeUnlock = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // MISSING TEST
         }
     }

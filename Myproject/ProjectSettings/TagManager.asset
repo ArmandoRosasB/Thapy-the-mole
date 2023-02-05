@@ -6,6 +6,9 @@ TagManager:
   tags:
   - StartWalkController
   - Next
+  - Level_1
+  - Level_2
+  - Level_3
   layers:
   - Default
   - TransparentFX
